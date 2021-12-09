@@ -121,10 +121,5 @@ OR
 		aMsgsResource.getMessage('Calendar', "ar", 'full.Hijri.Gregorian', 451432, "الثلثلاء", 14 );
 
 		
-## Developing
-
-
-
-### Tools
 
  
