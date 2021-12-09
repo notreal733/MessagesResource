@@ -1,0 +1,4 @@
+<span *ngIf="(oMessage | async) as data; else loading">{{data}}</span>
+<ng-template #loading>
+  Loading User... {{oMessage}}
+</ng-template>

@@ -121,5 +121,23 @@ OR
 		aMsgsResource.getMessage('Calendar', "ar", 'full.Hijri.Gregorian', 451432, "الثلثلاء", 14 );
 
 		
+## Usage Angular
+
+Look in the examples directory for an angular component that you can use in your pages like so
+
+Display message using locale from preferences
+
+	<message-resource oBundle="CommonMessages" oName="common.besmiAllay"></message-resource> 
+	
+Display message using a specific locale 
+
+	<message-resource oBundle="CommonMessages"  oLocale="fa" oName="common.besmiAllay"></message-resource> 
+
+	<message-resource oBundle="CommonMessages"  oLocale="en" oName="common.besmiAllay"></message-resource> 
+	
+	
+	<message-resource oBundle="Calendar" oName="Hijri.moth.11"></message-resource> 
+	
+	<message-resource oBundle="Calendar" oLocale="en" oName="Hijri.moth.11"></message-resource> 
 
  
