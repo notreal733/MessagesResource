@@ -1,0 +1,65 @@
+{
+	"name": "messages-resource",
+	"version": "0.0.0",
+	"private": true,
+	"type": "commonjs",
+	"target": "es2015",
+	"scripts": {
+		"testLookAt.mocharc.json.for.all.configs": "mocha -r jsdom-global/register -r ts-node/register test/**/*Test.ts   -r ts-node/register test/**/*.json",
+		"test": "mocha",
+		"testxxx": "env TS_NODE_PROJECT=\"tsconfig.json\" mocha -p  --require ts-node/register 'test/**/*Test.ts'",
+		"coverage": "nyc -r lcov -e .ts -x \"*.ls -tlr.ts\" npm run test",
+		"prepare": "npm run build",
+		"build": "tsc -p . ",
+		"cc": "tsc  --target ES5  ",
+		"compile": "tsc --declaration",
+		"publish": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json"
+	},
+	"jest": {
+		"roots": [
+			"test"
+		],
+		"transform": {
+			"^.+\\.tsx?$": "ts-jest"
+		},
+		"moduleFileExtensions": [
+			"ts",
+			"js"
+		],
+		"testRegex": "^.+Test\\.ts$"
+	},
+	"description": "ALZeker Calendar",
+	"main": "index.js",
+	"directories": {
+		"test": "test"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/chai": "^4.2.15",
+		"@types/debug": "^4.1.5",
+		"@types/mocha": "^8.2.2",
+		"@types/node": "^14.14.35",
+		"@types/sprintf-js": "^1.1.2",
+		"chai": "^4.3.4",
+		"cross-env": "^7.0.3",
+		"debug": "^4.3.1",
+		"jsdom": "16.5.2",
+		"jsdom-global": "3.0.2",
+		"json-loader": "^0.5.7",
+		"mocha": "^8.3.2",
+		"nyc": "^15.1.0",
+		"ts-loader": "^8.1.0",
+		"ts-node": "^9.1.1",
+		"typescript": "^4.4.4"
+	},
+	"dependencies": {
+		"sprintf-js": "^1.0.3"
+	},
+	"browser": {
+		"fs": false,
+		"path": false,
+		"os": false
+	}
+}

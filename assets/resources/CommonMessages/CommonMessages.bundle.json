@@ -1,0 +1,10 @@
+{
+   "oRootPath": "",
+   "oResourceRefereance": {
+    "ar": "CommonMessages_ar.json",
+    "en": "CommonMessages.json",
+    "en_US": "CommonMessages_en_US.json"
+   },
+   "oBundle": "CommonMessages",
+   "oUpdateOn": "Sun Apr 11 03:38:25 EDT 2018"
+  }

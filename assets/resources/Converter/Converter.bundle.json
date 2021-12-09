@@ -1,0 +1,10 @@
+{
+   "oRootPath": "",
+   "oResourceRefereance": {
+    "ar": "Converter_ar.json",
+    "en": "Converter.json",
+    "xy": "Converter_xy.json"
+   },
+   "oBundle": "Converter",
+   "oUpdateOn": "Wed Mar 31 20:30:46 EDT 2018"
+  }

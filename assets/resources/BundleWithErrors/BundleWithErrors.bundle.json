@@ -1,0 +1,10 @@
+{
+   "oRootPath": "",
+   "oResourceRefereance": {
+    "ar": "BundleWithErrors_ar.json",
+    "en": "BundleWithErrors.json",
+    "xy": "BundleWithErrors_xy.json"
+   },
+   "oBundle": "BundleWithErrors",
+   "oUpdateOn": "Wed Mar 31 20:30:46 EDT 2018"
+  }

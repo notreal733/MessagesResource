@@ -1,0 +1,10 @@
+{
+   "oRootPath": "",
+   "oResourceRefereance": {
+    "ar": "UnitName_ar.json",
+    "en": "UnitName.json",
+    "xy": "UnitName_xy.json"
+   },
+   "oBundle": "UnitName",
+   "oUpdateOn": "Wed Mar 31 20:30:46 EDT 2018"
+  }
